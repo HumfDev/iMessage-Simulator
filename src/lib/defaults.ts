@@ -1,9 +1,9 @@
 import type { Conversation } from '@/types/conversation';
 
 export const DEFAULT_SETTINGS: Conversation['settings'] = {
-  incomingTypingMs: 1000,
-  outgoingCharIntervalMs: 45,
-  pauseAfterSendMs: 400,
+  incomingTypingMs: 2000,
+  outgoingCharIntervalMs: 90,
+  pauseAfterSendMs: 800,
   statusBarTime: '6:07',
 };
 

@@ -49,9 +49,10 @@ export const MESSAGE_VIEWPORT = {
 /** Small cqw inset so typing/bubbles don't touch bezel edge */
 export const MESSAGE_EDGE_INSET_CQW = 2;
 
+/** Composer pill text lane (measured from iphone-skeleton.png @ 1024²) */
 export const COMPOSER_TEXT = {
-  bottom: '7%',
-  left: '29.5%',
-  width: '41%',
-  height: '3.2%',
+  top: '92.58%',
+  left: '24%',
+  width: '55%',
+  height: '3.52%',
 };

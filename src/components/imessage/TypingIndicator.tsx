@@ -8,7 +8,7 @@ export function TypingIndicator() {
           <span
             key={i}
             className="typing-dot animate-bounce-dot"
-            style={{ animationDelay: `${i * 150}ms` }}
+            style={{ animationDelay: `${i * 300}ms` }}
           />
         ))}
       </div>
