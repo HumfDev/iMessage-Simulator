@@ -1,0 +1,31 @@
+{
+  "name": "chatui",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "render": "remotion render ConversationVideo out/video.mp4 --props=out/props.json",
+    "props": "node scripts/write-props.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.286",
+    "@remotion/player": "^4.0.286",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.286"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/serve-static": "^2.2.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.0"
+  }
+}
