@@ -1,3 +1,4 @@
+<!-- dc:last-synced: 2026-07-17 -->
 # iMessage Animation
 
 Write a conversation, play it as an animation on your **skeleton iPhone PNG**, and export an MP4.
